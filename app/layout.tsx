@@ -1,15 +1,15 @@
 "use client"
 
-import type { Metadata } from 'next'
+// import type { Metadata } from 'next'
 import './globals.css'
 import Head from 'next/head'
 import { useEffect } from 'react'
 
-export const metadata: Metadata = {
-  title: 'Anniversary App',
-  description: 'Created with The Love',
-  generator: 'The Love',
-}
+// export const metadata: Metadata = {
+//   title: 'Anniversary App',
+//   description: 'Created with The Love',
+//   generator: 'The Love',
+// }
 
 useEffect(() => {
   if ('serviceWorker' in navigator) {
